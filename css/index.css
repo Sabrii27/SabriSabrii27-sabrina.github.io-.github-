@@ -1,0 +1,121 @@
+body {
+
+    margin:0;
+    padding:0;
+    background: #95D9DA;
+}
+
+.info1 {
+
+    width: 100%;
+    height: 300px;
+    background: #FCBFB7;
+    transform: skewY(-5deg);
+}
+
+.info1 .info2 {
+    width:50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.info1 .info2 .p-1 {
+    color:black;
+    font-family:"kalam";
+    font-weight:bolder;
+    font-size: 48px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.info1 .info2 .p-2 {
+    color:black;
+    font-family:"kalam";
+    font-size: 28px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;   
+}
+
+.info1 .img {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 190px;
+    height: 200px;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.info1 .img img {
+    width: 136px;
+    height: 126px;
+}
+
+.cont {
+    width: 90%;
+    height: auto;
+    background: #FCBFB7;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cont .titulo1 {
+    color:black;
+    font-family:"Kalam";
+    font-size: xx-large;
+    text-align: center;
+    font-weight:bolder;
+    border-bottom: 2px black;
+}
+
+.cont .titulo2 {
+    color:black;
+    font-family:"Kalam";
+    font-size: large;
+    font-weight:bolder;
+    display: inline;
+}
+
+.cont .titulo3 {
+    color:black;
+    font-family:"Kalam";
+    font-size: large;
+    font-weight:normal;
+    display: inline;
+}
+
+.cont .titulo4 {
+    color:black;
+    font-family:"Kalam";
+    text-align: center;
+    font-size: large;
+    margin: -1% auto;
+}
+
+.redes {
+    height: 200px;
+    padding: 30px;
+}
+
+.redes h2{
+    font-family:"Kalam";
+    text-align: center;
+   
+}
+
+.rsociales {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.rsociales li {
+    display: inline-block;
+}
+
+.rsociales a {
+    padding: 10px;
+}
